@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  int selectedTabIndex = 0;
+  int selectedTabIndex = 1;
 
   void onTap(int navigateToIndex) {
     if (selectedTabIndex != navigateToIndex) {
